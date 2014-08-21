@@ -19,10 +19,12 @@ limitations under the License.
     <style type="text/css">
 	  body {
 	    overflow:hidden;
+      background-image: url('https://www.gstatic.com/webp/gallery/4.jpg');
+      /* background-image: url(chrome://resources/images/eureka/background11.jpg); */
 	  }
       div{
-	    height:720PX;
-	    width:1280PX;
+	    /* height:720PX;
+	    width:1280PX; */
 	    text-align:center;
 	    border:0px solid silver;
 	    display: table-cell;
@@ -33,11 +35,18 @@ limitations under the License.
 	    font-family:Verdana, Geneva, sans-serif;
 	    font-size:40px;
 	}
+    iframe {
+      width: 100%;
+      height: 666px;
+    }
     </style>
-    <title>Cast Hello Text</title>
+    <title>Cast Hello Message</title>
   </head>
-  <body>
+  <body lang="en-US">
 	<DIV id="message">Talk to me</DIV>
+  <!-- <iframe src="http://get.webgl.org/"></iframe>
+  <iframe src="https://goote.ch/03272f1a4bca9355dc0250fa82507c557a02b3ad/"></iframe>  -->
+    <iframe src="http://learningwebgl.com/lessons/lesson08/index.html"></iframe>
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <script type="text/javascript">
       window.onload = function() {
